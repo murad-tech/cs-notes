@@ -4,7 +4,7 @@
 
 **Binary Tree** is a hierarchical data structure in which each node has at most two children.
 
-```
+```py
 # visual representation
     (A)
     / \
@@ -23,7 +23,7 @@ For node at index i:
 
 **Balanced Binary Tree** is a binary tree in which the difference between the heights of the left and right subtrees is not more than one.
 
-```
+```py
 # balanced (height difference <= 1)
      (1)
     /   \
@@ -43,7 +43,7 @@ For node at index i:
 
 **Complete Binary Tree** is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
 
-```
+```py
      (1)
     /   \
   (2)   (3)
@@ -53,7 +53,7 @@ For node at index i:
 
 **Binary Search Tree** is a binary tree where the value of each node is greater than the values in the left subtree and less than the values in the right subtree.
 
-```
+```py
       (5)
     /     \
   (3)     (7)   # 5 > 3 and 5 < 7
@@ -66,7 +66,7 @@ For node at index i:
 The height of a binary tree is the number of edges from the root node to the farthest leaf node.
 Complete Binary Tree has height = log2(n)
 
-```
+```py
 # Asymptotic Analysis:
         (1)            # level 0 | nodes = 1 = 2^0
       /     \
@@ -87,6 +87,6 @@ n = 2^0 + 2^1 + 2^2 + ... + 2^h-1 + 2^h         # common-ratio = 2
 n = 2^(h+1) - 1
 
 2^(h+1) = n + 1             # add 1 to both sides
-h+1 = log2(n+1)             # add log2(2) to both sides, log2(2^(h+1)) = h+1
+h+1 = log2(n+1)             # take log base 2 of both sides, log2(2^(h+1)) = h+1
 h = log2(n+1) - 1 = log2(n)
 ```
