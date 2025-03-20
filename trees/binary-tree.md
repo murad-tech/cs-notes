@@ -18,7 +18,7 @@
 For node at index i:
 - its left child is at index 2i+1
 - its right child is at index 2i+2
-- its parent is at index i/2-1
+- its parent is at index (i-1)/2
 ```
 
 **Balanced Binary Tree** is a binary tree in which the difference between the heights of the left and right subtrees is not more than one.
