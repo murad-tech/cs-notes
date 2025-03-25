@@ -4,7 +4,7 @@ This branch represents a copy of notes from my handwritten notebook.
 
 ## TODOs
 
-- [ ] Trees
+- [x] Trees
 - [ ] Graphs
 - [ ] Data structures
 - [ ] Algorithms
