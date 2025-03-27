@@ -2,6 +2,10 @@
 
 A graph is a collection of nodes and edges.
 
+**Real world example**: Map of states as Nodes/Vertices and Roads as Edges
+
+![State Map Graph](../assets/state_map_graph.drawio.png 'State Map Graph')
+
 ```py
 # visual representation
        (A)
